@@ -1,0 +1,11 @@
+.pageBox{width: 100%;height:100%;}
+.pageBox .el-container{width: 100%;height:100%;padding: 0px;}
+.pageBox>.el-container{padding: 10px;/*min-height: 600px;*/}
+.pageBox .el-header{padding:10px;}
+
+.orderTable{width: 100%;height: 100%;border-top: 1px solid #666;border-left: 1px solid #666;position: relative;}
+.orderTable .orderTr{display: flex;}
+.orderTable .orderTr:nth-of-type(1){background-color: #eee;text-align: center;position: absolute;top: 0;width: 100%;}
+.orderTable .orderTr>.orderTd{font-size: 16px;line-height: 24px;padding: 4px 10px;border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.orderTable .orderTr>.orderTd:nth-of-type(1){width: 40%;}
+.orderTable .orderTr>.orderTd:nth-of-type(2){width: 60%;}
